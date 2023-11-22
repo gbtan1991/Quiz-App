@@ -1,11 +1,12 @@
-import Timer from "./component/TimerComponent.jsx";
+import TimerComponent from "./component/TimerComponent.jsx";
+import Footer from './component/Footer.jsx';
 
 function App() {
   return (
-    <h1 className="text-3xl font-bold underline">
-      <Timer />
-      <img src='./public/wave.svg' alt='waves' />
-    </h1>
+    <div>
+      <TimerComponent />
+      <Footer />
+    </div>
   );
 }
 
